@@ -1,0 +1,60 @@
+@font-face {
+  font-family: 'Fair Prosper';
+  src: url('./assets/FairProsper.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Aurora BdCn BT';
+  src: url('./assets/AURORABC.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Fine Serif';
+  src: url('./assets/FineSerif.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+.navbar-container {
+  position: relative;
+  width: 100%;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.content-wrapper {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0 20px;
+}
+
+@media (min-width: 1500px) {
+  .boy-image {
+      width: 30% !important;
+  }
+}
+
+@media (min-width: 1500px) {
+  .wedding-image {
+      width: 25% !important;
+  }
+}
+
+.top-left-image, .top-right-image {
+  display: block;
+}
+
+@media screen and (max-width: 768px) {
+  .top-left-image, .top-right-image {
+      height: 150px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .top-left-image, .top-right-image {
+      height: 100px;
+  }
+}
